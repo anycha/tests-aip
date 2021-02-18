@@ -5,6 +5,14 @@ def task_1(two_dim_words):
         Заполнять список значениями не нужно.
         Финальное значение должно быть помещено в переменную sorted_words.
         """
+    sorted_words = []
+    for d in two_dim_words:
+        sorted_words.extend(d)
+     print(sorted_words)
+     sorted_words.sort()
+     sorted_words(key=len, reverse = True)
+     print(sorted_words)
+    
 
     return sorted_words
 
